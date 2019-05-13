@@ -1,91 +1,143 @@
 <template>
-  <f7-page :page-content="false" name="homecall">
-   
-   
-    
-        <f7-block class="margeinterieure">
+  <f7-page :page-content="false"  name="homecall">
+ 
+          <f7-block class="">
 
-          <f7-block-title>Test</f7-block-title>
-<f7-list >
-  <f7-list-item-row >
-    <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white"> <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle">   <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text >
-                  <center><h1>M</h1></center>
-                </b-card-text>
-                <b-card-text class="">Marie</b-card-text>
-            </b-card>
-           </f7-link>
-  </f7-list-item-cell>
-   <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white">  <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle"> <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text>
-                 <center><h1>N</h1></center>
-                </b-card-text>
-                <b-card-text class="">Nina</b-card-text>
-            </b-card>
-            </f7-link>
-  </f7-list-item-cell>
- 
-  </f7-list-item-row>
-  
-  <f7-list-item-row >
-    <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white"> <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle">   <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text >
-                  <center><h1>M</h1></center>
-                </b-card-text>
-                <b-card-text class="">Marie</b-card-text>
-            </b-card>
-           </f7-link>
-  </f7-list-item-cell>
-   <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white">  <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle"> <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text>
-                 <center><h1>N</h1></center>
-                </b-card-text>
-                <b-card-text class="">Nina</b-card-text>
-            </b-card>
-            </f7-link>
-  </f7-list-item-cell>
- 
-  </f7-list-item-row>
-  <f7-list-item-row >
-    <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white"> <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle">   <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text >
-                  <center><h1>M</h1></center>
-                </b-card-text>
-                <b-card-text class="">Marie</b-card-text>
-            </b-card>
-           </f7-link>
-  </f7-list-item-cell>
-   <f7-list-item-cell class="marge">
-           <f7-link  popover-open=".popover-menuAppel" color="white">  <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay>
-                <b-card-title class="myStyle"> <f7-link raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></b-card-title>
-                <b-card-text>
-                 <center><h1>N</h1></center>
-                </b-card-text>
-                <b-card-text class="">Nina</b-card-text>
-            </b-card>
-            </f7-link>
-  </f7-list-item-cell>
- 
-  </f7-list-item-row>
-  
-</f7-list>
+            <f7-row class="" >
+          
+              <f7-col  class="margin-bottom " width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block " popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">M</h1>
+                          <p>Marie Justine </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
 
- 
+               <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
 
-            
-            
-        </f7-block>
-            <f7-popover class="popover-menuAppel">
+              <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+              <f7-col  class="margin-bottom " width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block " popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">M</h1>
+                          <p>Marie Justine </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+
+               <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+
+              <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+              <f7-col  class="margin-bottom " width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block " popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">M</h1>
+                          <p>Marie Justine </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+
+               <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+
+              <f7-col  class="margin-bottom" width="50" tablet-width="25"  style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)">
+                  <f7-link color="white"  class="display-block" popover-open=".popover-menuAppel" > 
+                    <f7-card class="bg-color-none no-margin">
+                        
+                        <f7-card-content>
+                          <p><f7-link  class="float-right" popover-close=".popover-menuAppel" raised sheet-open=".demo-sheet" icon-f7="more_vertical_fill" icon-color="white"></f7-link></p>
+                          <h1 class="text-align-center">R</h1>
+                          <p>Ribal Nelly </p>
+                        </f7-card-content>
+                       
+                      </f7-card>
+                    </f7-link>
+              </f7-col>
+
+              
+             
+
+            </f7-row>
+          
+          </f7-block>
+       
+       
+            <f7-popover :backdrop="false" class="popover-menuAppel">
               <f7-list>
                 <f7-list-item no-chevron link="#" popover-close title="SIM 1"></f7-list-item>
               <f7-list-item no-chevron link="#" popover-close title="SIM 2" ></f7-list-item>
@@ -108,9 +160,7 @@
       </f7-page-content>
     </f7-sheet>
 
-  <f7-fab position="center-bottom" slot="fixed" text="" color="blue">
-    <f7-icon ios="f7:dialpad" aurora="f7:dialpad" md="material:dialpad" color="white"></f7-icon>
-  </f7-fab>
+  
 
   </f7-page>
 </template>

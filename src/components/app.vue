@@ -3,6 +3,7 @@
   <!-- Status bar overlay for fullscreen mode-->
   <f7-statusbar></f7-statusbar>
 
+ 
 
   <!-- View home container -->
  <f7-view id="view-home" main url="/"></f7-view>
