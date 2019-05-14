@@ -144,7 +144,7 @@
               </f7-list>
             </f7-popover>
 
-        <f7-sheet class="demo-sheet" :opened="sheetOpened" @sheet:closed="sheetOpened = false">
+        <f7-sheet :backdrop="false" class="demo-sheet" :opened="sheetOpened" @sheet:closed="sheetOpened = false">
       <f7-toolbar>
         <div class="left"></div>
         <div class="right">
