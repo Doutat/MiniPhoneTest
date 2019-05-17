@@ -6,6 +6,7 @@ import CatalogPage from '../pages/catalog.vue';
 import ProductPage from '../pages/product.vue';
 import SettingsPage from '../pages/settings.vue';
 import HomeCallPage from '../pages/homecall.vue';
+import ConversationPage from '../pages/conversations.vue'
 
 import DynamicRoutePage from '../pages/dynamic-route.vue';
 import RequestAndLoad from '../pages/request-and-load.vue';
@@ -15,6 +16,10 @@ var routes = [
   {
     path: '/',
     component: HomePage,
+  },
+  {
+    path:'/conversations/',
+    component:ConversationPage,
   },
   {
     path:'/homecall/',
